@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #color{
+            background-color: brown;
+        }
+        .color1{
+            background-color: rebeccapurple;
+        }
+        .super_div{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="super_div" id="whole_div">
+        <p class="demo color test hello_vai" id="value">Basic of DOM</p>
+        <p class="demo">Hero Vai</p>
+        <a href="" onclick="test()">click me</a>
+        <button onclick="test()">click me</button>
+    </div>
+    <script>
+        // let x = document.querySelector(".demo")
+        // let x = document.getElementById
+        // let x = document.getElementsByClassName("demo")[0].textContent;
+        // let y = document.getElementsByClassName("demo")[1].innerHTML=x;
+// document.getElementsByClassName("demo")[0].setAttribute('id','color');
+//  document.getElementsByClassName("demo")[1].setAttribute('class','color1 color2');
+// let y = document.getElementById("value").getAttribute('id')
+// let y = document.getElementById("value").classList;
+// y.remove('hello_vai')
+// y.add('thaken_vai')
+
+let y = document.getElementById("whole_div").classList
+
+function test(){
+    y.toggle("super_div")
+    // window.location.href = "https://www.google.com/"
+    console.log("bangladesh")
+    for(let i=1; i<5; i++){
+        console.log(i)
+    }
+}
+
+    </script>
+</body>
+</html>

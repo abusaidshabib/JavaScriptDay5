@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div>
+        <!-- <h1 id="test">head</h1>
+        <p id="test"></p> -->
+        <!-- <h1 class="intro">head</h1> -->
+        <!-- <p class="intro">Hello</p> -->
+        <!-- <p class="intro">Imran</p> -->
+        <!-- <p class="selector">Imran</p> -->
+
+    <p class="demo">hello vai1</p>
+    <p class="demo">hello vai2</p>
+    <p class="demo">hello vai3</p>
+    <p class="demo">hello vai4</p>
+    </div>
+    <!-- <div>head2</div> -->
+    <script>
+        // document.getElementById("test").innerText="Hello there!"
+// document.getElementsByClassName("intro")[0].innerHTML = "Hello World";
+// document.getElementsByClassName("intro")[1].innerHTML = "Hello World";
+// document.getElementsByTagName("p")[0].innerHTML="Test";
+// document.querySelectorAll("p.selector")[0].innerText="Hero Imran";
+const x = document.getElementsByClassName("demo")
+x[1].innerHTML = "Hello world"
+
+for(let i = 0; i < x.length; i++){
+    x[i].innerHTML = "Hello world"
+}
+    </script>
+</body>
+</html>
